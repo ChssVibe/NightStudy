@@ -1,0 +1,102 @@
+/* Style for the page */
+body {
+    background-color: black; /* Change the background color to black */
+    text-align: center; /* Center-align content */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navigation bar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000; /* Background color of the navbar */
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(181, 117, 255); /* Border color */
+}
+p {
+    color:rgb(220, 150, 253)
+}
+h3 {
+    color:rgb(119, 12, 168)
+}
+
+.subtitle {
+    font-size: 18px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    height: 40px; /* Adjust the height of the logo */
+    margin-right: 10px;
+}
+
+.lt {
+    color: rgb(220, 150, 253);
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.ltm {
+    color: rgb(150, 150, 150);
+}
+
+.support {
+    margin-left: auto;
+}
+
+.ss {
+    background-color: #000000; /* Button background color */
+    color: rgb(220, 150, 253); /* Button text color */
+    border: 2px solid rgb(168, 28, 233); /* Remove border */
+    padding: 8px 16px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.btn {
+    background-color: #000000; /* Button background color */
+    color: rgb(211, 115, 255); /* Button text color */
+    border: 2px solid rgb(38, 3, 54); /* Remove border */
+    padding: 8px 16px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Style for captcha boxes */
+.box {
+    border: 2px solid #1e0025; /* Border color */
+    display: inline-block; /* Allow the box to expand with content */
+    max-width: 90%; /* Set a max width for the box */
+    min-width: 200px;
+    padding: 8px; /* Padding inside the box */
+    text-align: center; /* Center-align content */
+    margin: 7px auto; /* Center the box on the page and reduce margin */
+    border-radius: 4px;
+    word-wrap: break-word; /* Allow text to wrap within the box */
+    color: rgb(220, 150, 253);
+}
+
+.footer {
+    margin-top: auto;
+    text-align: center;
+    color: rgb(211, 115, 255);
+    padding: 10px 0; /* Add some padding to the footer */
+    background-color: black; /* Ensure the footer background matches the page */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .box {
+        width: 90%; /* Width of the box on mobile devices */
+        max-width: 100%; /* Maximum width of the box */
+    }
+}
